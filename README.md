@@ -10,7 +10,7 @@
 
 LiveFrame 帮你从视频里留下那几秒。封面选哪一帧、画面留住谁、要不要签上名字，都由你决定。
 
-**[下载 Mac 版](https://github.com/ARCHIC001/LiveFrame/releases/latest)**　 [查看安装方法](INSTALL.md)
+**[下载 Mac 版](https://github.com/ARCHIC001/LiveFrame/releases/download/v2.4.1/LiveFrame-2.4.1-macOS-arm64.dmg)**　 [查看安装方法](INSTALL.md)
 
 适用于 Apple 芯片 Mac，支持 macOS 13 及以上版本。
 
@@ -58,7 +58,7 @@ LiveFrame 帮你从视频里留下那几秒。封面选哪一帧、画面留住�
 
 ## 给作品签个名
 
-可以是一行小小的署名，也可以是自己的 Logo。文字和图片都能放进来，还可以叠加多个图层。直接按住水印本体拖动就能定位，画面上不会多出一个挡住预览的拖动箭头。
+可以是一行小小的署名，也可以是自己的 Logo。文字和图片都能放进来，还可以叠加多个图层。按住水印本体拖动，就能把署名放在合适的位置。
 
 <img src="assets/watermark.png" alt="水印叠加在封面上，右侧可调整混合方式和阴影。" width="100%">
 
@@ -85,11 +85,11 @@ LiveFrame 帮你从视频里留下那几秒。封面选哪一帧、画面留住�
 
 切换手机模式时，刚才编辑好的片段和画面都会保留，导出的文件格式随之改变。
 
-**Android 会得到一个动态 JPG。** 封面和 MP4 视频装在同一个文件里，传原文件就能把两部分一起带过去。将它保存到手机的 `Pictures` 或 `DCIM`，交给相册读取。相册支持情况和系统版本的说明，可以在[安装指南](INSTALL.md)里查看。
+**Android 会得到一个动态 JPG。** 封面和 MP4 视频装在同一个文件里，传原文件就能把两部分一起带过去。通过文件传输保存到手机的 `Pictures` 或 `DCIM`，在相册里查看。
 
 **iOS 会得到配对的 JPG 和 MOV。** 导出完成后，点击「保存到照片」，就可以把它作为一个 Live Photo 放进 Mac 的照片图库，再通过 iCloud 照片同步到 iPhone。
 
-传输时记得保留原件。按普通图片发送，或者重新保存一遍 JPG，可能只剩下封面；使用文件传输会更稳妥。
+传到手机时，使用文件传输保留原件，让封面和动态画面一起到达。
 
 ## 常用的发布尺寸，我们先帮你设好
 
@@ -107,7 +107,7 @@ LiveFrame 帮你从视频里留下那几秒。封面选哪一帧、画面留住�
 | 小红书竖屏 | 2:3 | 1280 × 1920 | 10 秒 |
 | 小红书竖屏全屏 | 3:5 | 1536 × 2560 | 10 秒 |
 
-这些模板按用户的实际上传测试整理。素材不够长时，软件会使用实际可输出的长度。模板可以在 Android 和 iOS 两种模式下使用，你选择的手机模式决定最后怎样封装。
+同一个模板可以在 Android 和 iOS 两种模式下使用。选好画幅，再选择你的手机，导出就按对应的格式完成。
 
 也可以自己设置尺寸。原始、720p、1080p 和 4K 都有现成选项，自定义宽高支持 16–8192 范围内的偶数；帧率可以选 24、25、30 或 60 fps。需要普通视频时可以导出 MOV，想做循环动图则可以导出 GIF。Instagram 预设用于准备构图素材，动态发布可以使用视频。
 
@@ -115,41 +115,21 @@ LiveFrame 帮你从视频里留下那几秒。封面选哪一帧、画面留住�
 
 素材处理都在本机完成，源视频保持原样，导出会生成新的文件。使用 LiveFrame 不需要注册账号，也不用先把视频上传到服务器。
 
-界面的颜色取自阳光穿过玻璃时的折射。导航和控制区域在 macOS 26 及以上使用系统 Liquid Glass，较早版本使用原生半透明材质。大图预览和右侧设置面板保持固定的位置，来回切换三个页面，操作习惯也跟着保留下来。
+界面的颜色取自阳光穿过玻璃时的折射。在 macOS 26 及以上，导航和控制区域融入系统 Liquid Glass。大图预览和右侧设置面板保持固定的位置，来回切换三个页面，操作习惯也跟着保留下来。
 
 ## 装好以后，导入视频就能开始
 
-在 [Releases](https://github.com/ARCHIC001/LiveFrame/releases/latest) 下载 `LiveFrame-2.4.1-macOS-arm64.dmg`，打开后将 LiveFrame 拖入「应用程序」。编码工具已经随应用提供，不需要另外安装 Homebrew 或开发环境。
+[下载 Mac 安装包](https://github.com/ARCHIC001/LiveFrame/releases/download/v2.4.1/LiveFrame-2.4.1-macOS-arm64.dmg)，打开后将 LiveFrame 拖入「应用程序」。导入你的视频，找到喜欢的那一段，就可以开始制作。
 
-当前安装包适用于 **Apple 芯片 Mac，macOS 13 及以上**。发行包尚未进行 Apple Developer ID 签名和公证，首次打开的具体步骤见[安装指南](INSTALL.md)。
-
-### 退出前，先把作品导出来
-
-当前版本不会保存未导出的编辑草稿。导出的文件可以在「导出记录」里找到，更新应用前也请先完成手头的作品。
+适用于 **Apple 芯片 Mac，macOS 13 及以上**。[查看安装方法](INSTALL.md)。
 
 <details>
-<summary><strong>封面和视频可以使用不同的水印吗？</strong></summary>
+<summary><strong>想让封面和视频用不同的水印？</strong></summary>
 
-可以。每个图层都有独立的显示范围。把署名只留在封面上，或者让 Logo 跟着整段视频，都能分别设置。自定义封面图片也可以和视频搭配使用。
-
-</details>
-
-<details>
-<summary><strong>手机上为什么只显示一张普通照片？</strong></summary>
-
-先确认导出时选了对应的手机模式，再检查文件是否经过图片压缩。Android 需要相册支持该动态照片格式；iOS 推荐通过应用里的「保存到照片」导入完整配对。传输原件和设备支持说明见安装指南。
-
-</details>
-
-<details>
-<summary><strong>可以批量处理视频吗？支持 HDR 吗？</strong></summary>
-
-当前版本一次编辑一个视频，输出为 SDR。动态预览的最长边最高为 1280 像素，最终导出使用你选择的分辨率。更具体的使用说明见安装指南。
+每个图层都有独立的显示范围。把署名留在封面上，或者让 Logo 跟着整段视频，都能分别设置。自定义封面图片也可以和视频搭配使用。
 
 </details>
 
 ---
 
-[下载 LiveFrame](https://github.com/ARCHIC001/LiveFrame/releases/latest)　 [查看版本记录](https://github.com/ARCHIC001/LiveFrame/releases)　 [反馈问题](https://github.com/ARCHIC001/LiveFrame/issues)
-
-本仓库提供安装包和使用说明，LiveFrame 应用源码未公开。编码使用独立的 FFmpeg / x264 程序，相关 GPL 许可、对应源码和重建脚本随应用提供，也可在 [Release 附件](https://github.com/ARCHIC001/LiveFrame/releases/tag/v2.4.1)中下载。
+[下载 LiveFrame](https://github.com/ARCHIC001/LiveFrame/releases/download/v2.4.1/LiveFrame-2.4.1-macOS-arm64.dmg)　 [反馈问题](https://github.com/ARCHIC001/LiveFrame/issues)
