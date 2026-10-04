@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4f6fb"/><stop offset=".46" stop-color="#f0f1fc"/><stop offset="1" stop-color="#fff1e6"/></linearGradient>
+ <linearGradient id="iris" x1="0" y1=".2" x2="1" y2=".8"><stop stop-color="#73d9cf"/><stop offset=".36" stop-color="#9191ef"/><stop offset=".65" stop-color="#eab4df"/><stop offset="1" stop-color="#ffcb96"/></linearGradient>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="white" stop-opacity=".9"/><stop offset="1" stop-color="white" stop-opacity=".25"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#c0f1e7" stop-opacity=".8"/><stop offset="1" stop-color="#c0f1e7" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="620" rx="32" fill="url(#bg)"/>
+<ellipse cx="1240" cy="310" rx="580" ry="410" fill="url(#glow)"/>
+<g transform="translate(80 82)" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+ <text fill="#127b68" font-size="19" font-weight="600" letter-spacing="4">LIVEFRAME FOR MAC</text>
+ <text y="103" fill="#292a40" font-size="88" font-weight="700" letter-spacing="-3">让瞬间，动起来。</text>
+ <text y="167" fill="#60677d" font-size="28">把喜欢的视频，做成属于你的实况照片。</text>
+ <text y="209" fill="#60677d" font-size="25">选时长 · 设封面 · 加水印 · 自由构图</text>
+ <g transform="translate(0 270)"><rect width="200" height="50" rx="25" fill="#ffffff" fill-opacity=".8"/><text x="100" y="33" text-anchor="middle" fill="#167863" font-size="20">Android 动态 JPG</text></g>
+ <g transform="translate(214 270)"><rect width="214" height="50" rx="25" fill="#ffffff" fill-opacity=".8"/><text x="107" y="33" text-anchor="middle" fill="#6562b5" font-size="20">Apple Live Photo</text></g>
+ <text y="404" fill="#8991a4" font-size="18" letter-spacing="1">原生 macOS 应用　 /　 视频处理全部在本机完成</text>
+</g>
+<g transform="translate(1235 305) rotate(-15)">
+ <rect x="-205" y="-205" width="410" height="410" rx="94" fill="url(#frame)" stroke="white" stroke-width="2"/>
+ <rect x="-172" y="-172" width="344" height="344" rx="78" fill="url(#iris)" opacity=".58"/>
+ <circle r="138" fill="none" stroke="white" stroke-width="7" opacity=".9"/>
+ <circle r="114" fill="none" stroke="#797cdb" stroke-width="3" stroke-dasharray="4 12" opacity=".65"/>
+ <circle r="86" fill="#fbfbff" fill-opacity=".55" stroke="white" stroke-width="3"/>
+ <circle r="55" fill="url(#iris)"/>
+ <circle r="22" fill="#777acd"/>
+ <ellipse cx="-36" cy="-59" rx="64" ry="24" fill="white" opacity=".4" transform="rotate(-38)"/>
+</g>
+<path d="M985 150L1410 494" stroke="white" stroke-width="2" opacity=".5"/>
+</svg>
